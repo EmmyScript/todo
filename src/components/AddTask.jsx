@@ -1,3 +1,4 @@
+
 import { useState } from "react"
 
 const AddTask = ({ onAddNewText }) => {
@@ -47,7 +48,7 @@ const AddTask = ({ onAddNewText }) => {
                 value= {reminder}
                  onChange={(e) => setReminder(e.currentTarget.checked)} 
                 
-         />
+         /> 
         </div>  
         <input type="submit" value= 'save Task'
         className=" btn btn-block" />
