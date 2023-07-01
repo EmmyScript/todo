@@ -69,7 +69,7 @@ const  [tasks, setTasks] = useState ([
 <Tasks tasks = {tasks}
 onDelete ={deleteTask} onToggle={toggleReminder}/> ) : (
 
-    'no task to show'
+    'no task to show idoko'
 
 )}
      
