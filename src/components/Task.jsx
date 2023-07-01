@@ -29,7 +29,7 @@ export default Task
 // test
 
 import React from 'react'
-import { FaTimes } from 'react-icons'
+import { FaTimes } from 'react-icons/fa'
 
 const Task = ({ task, onDelete, onToggle }) => {
   return (
